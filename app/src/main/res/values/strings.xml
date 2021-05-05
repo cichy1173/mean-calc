@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">LAB1</string>
+    <string name="name">Name:</string>
+    <string name="type_name">Type name</string>
+    <string name="surname">Surname:</string>
+    <string name="type_surname">Type surname</string>
+    <string name="number_of_marks">Number of marks:</string>
+    <string name="type_marks_5_15">Type marks [5-15]</string>
+    <string name="check">Check!</string>
+    <string name="przedmiot">Przedmiot</string>
+    <string name="oblicz_srednia">Oblicz średnią</string>
+    <string name="countbutton">countButton</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="gradename">gradeName</string>
+    <string name="error">Field cannot be empty</string>
+    <string name="error2">Only 5–15 numbers</string>
+    <string name="failed">Tym razem się nie udało</string>
+    <string name="success">Super :-)</string>
+    <string name="srednia">Twoja średnia to: </string>
+    <string name="get_mean">Get Mean!</string>
+    <string name="toastSucces">Gratulacje! Otrzymujesz zaliczenie!</string>
+    <string name="toastFailed">Wysyłam podanie o zaliczenie warunkowe</string>
+
+    <string-array name="gradeTable">
+        <item>Paradygmaty</item>
+        <item>Fizyka</item>
+        <item>Matematyka</item>
+        <item>Modelowanie</item>
+        <item>Proba</item>
+        <item>Programowanie</item>
+        <item>Metrologia</item>
+        <item>W-F</item>
+        <item>Ekonomia</item>
+        <item>Analiza</item>
+        <item>Bazy</item>
+        <item>Java</item>
+        <item>C++</item>
+        <item>Vala</item>
+        <item>Linux</item>
+    </string-array>
+</resources>

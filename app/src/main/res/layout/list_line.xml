@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/gradeName"
+            android:layout_width="250dp"
+            android:text="@string/gradename"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup"
+            app:layout_constraintStart_toEndOf="@+id/gradeName"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/twoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_2" />
+
+            <RadioButton
+                android:id="@+id/threeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_3" />
+
+            <RadioButton
+                android:id="@+id/fourButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_4" />
+
+            <RadioButton
+                android:id="@+id/fiveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_5" />
+        </RadioGroup>
+
+
+
+</LinearLayout>
